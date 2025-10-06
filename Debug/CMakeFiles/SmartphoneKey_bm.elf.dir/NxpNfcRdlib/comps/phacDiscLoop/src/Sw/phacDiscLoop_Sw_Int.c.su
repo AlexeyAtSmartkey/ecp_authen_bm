@@ -1,0 +1,13 @@
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c:107:19:phacDiscLoop_Sw_Int_Apply_PTGT	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c:233:19:phacDiscLoop_Sw_Int_EmvcoRfFieldReset	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c:252:12:phacDiscLoop_Sw_Int_ListenMode	16	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c:310:12:phacDiscLoop_Sw_Int_ActivePollMode	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c:465:12:phacDiscLoop_Sw_Int_PollMode	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c:557:12:phacDiscLoop_Sw_Int_EmvcoRemovalProcedure	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c:665:12:phacDiscLoop_Sw_Int_TechDetectActivity	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c:805:12:phacDiscLoop_Sw_Int_EmvcoTechDetectActivity	40	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c:987:12:phacDiscLoop_Sw_Int_ColsnReslnActivity	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c:1026:12:phacDiscLoop_Sw_Int_ActivateDevice	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c:1058:12:phacDiscLoop_Sw_Int_RfcaOff_FieldOn	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c:1077:12:phacDiscLoop_Sw_Int_FieldOn	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c:1103:9:phacDiscLoop_Sw_Int_IsValidPollStatus	16	static

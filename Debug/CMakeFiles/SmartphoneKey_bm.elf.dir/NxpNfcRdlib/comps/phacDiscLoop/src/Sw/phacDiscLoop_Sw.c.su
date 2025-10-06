@@ -1,0 +1,6 @@
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c:56:12:phacDiscLoop_Sw_Init	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c:274:12:phacDiscLoop_Sw_Run	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c:380:12:phacDiscLoop_Sw_SetConfig	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c:894:12:phacDiscLoop_Sw_GetConfig	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c:1165:12:phacDiscLoop_Sw_ActivateCard	16	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c:1174:12:phacDiscLoop_Sw_CfgPollSeq	24	static

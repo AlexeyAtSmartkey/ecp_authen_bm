@@ -1,0 +1,3 @@
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_clock.h:145:20:CLOCK_InitClockGeneration	8	static
+C:/nxp/projects/ecp_authen_bm/board/clock_config.c:43:6:BOARD_InitBootClocks	8	static
+C:/nxp/projects/ecp_authen_bm/board/clock_config.c:80:6:BOARD_BootClockRUN	16	static

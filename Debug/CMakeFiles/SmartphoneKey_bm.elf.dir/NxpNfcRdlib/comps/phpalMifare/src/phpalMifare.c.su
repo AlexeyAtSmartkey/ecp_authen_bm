@@ -1,0 +1,8 @@
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalMifare/src/phpalMifare.c:37:12:phpalMifare_ExchangeL3	40	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalMifare/src/phpalMifare.c:113:12:phpalMifare_ExchangeL4	40	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalMifare/src/phpalMifare.c:189:12:phpalMifare_ExchangePc	40	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalMifare/src/phpalMifare.c:264:12:phpalMifare_ExchangeRaw	48	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalMifare/src/phpalMifare.c:347:12:phpalMifare_MfcAuthenticateKeyNo	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalMifare/src/phpalMifare.c:417:12:phpalMifare_MfcAuthenticate	40	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalMifare/src/phpalMifare.c:485:12:phpalMifare_SetMinFdtPc	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalMifare/src/phpalMifare.c:508:12:phpalMifare_GetConfig	32	static

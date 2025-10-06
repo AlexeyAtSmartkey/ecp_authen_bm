@@ -1,0 +1,4 @@
+C:/nxp/projects/ecp_authen_bm/device/system_PN7642.c:59:29:SystemInit	8	static
+C:/nxp/projects/ecp_authen_bm/device/system_PN7642.c:72:6:SystemCoreClockUpdate	4	static
+C:/nxp/projects/ecp_authen_bm/device/system_PN7642.c:80:29:SystemInitHook	4	static
+C:/nxp/projects/ecp_authen_bm/device/system_PN7642.c:89:6:SystemCheckBoot	16	static

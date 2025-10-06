@@ -1,0 +1,12 @@
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c:36:12:phalI18000p3m3_Sw_Init	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c:58:12:phalI18000p3m3_Sw_Ack	40	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c:102:12:phalI18000p3m3_Sw_ReqRn	48	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c:194:12:phalI18000p3m3_Sw_Read	72	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c:304:12:phalI18000p3m3_Sw_Write	72	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c:415:12:phalI18000p3m3_Sw_Kill	64	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c:584:12:phalI18000p3m3_Sw_Lock	64	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c:658:12:phalI18000p3m3_Sw_Access	64	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c:799:12:phalI18000p3m3_Sw_BlockWrite	64	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c:951:12:phalI18000p3m3_Sw_BlockErase	72	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c:1031:12:phalI18000p3m3_Sw_BlockPermaLock	56	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c:1229:12:phalI18000p3m3_Sw_SetHandle	16	static

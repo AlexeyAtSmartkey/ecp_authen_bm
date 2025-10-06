@@ -1,0 +1,6 @@
+C:/nxp/projects/ecp_authen_bm/source/nfc_comm/nfc_comm.c:208:12:NFC_COMM_init	16	static
+C:/nxp/projects/ecp_authen_bm/source/nfc_comm/nfc_comm.c:272:6:NFC_COMM_process	16	static
+C:/nxp/projects/ecp_authen_bm/source/nfc_comm/nfc_comm.c:284:17:ProcessCard	16	static
+C:/nxp/projects/ecp_authen_bm/source/nfc_comm/nfc_comm.c:302:17:ProcessDiscLoopStatus_EntryPointPoll	40	static
+C:/nxp/projects/ecp_authen_bm/source/nfc_comm/nfc_comm.c:396:17:ProcessDiscLoopStatus	24	static
+C:/nxp/projects/ecp_authen_bm/source/nfc_comm/nfc_comm.c:447:19:LoadProfile	24	static

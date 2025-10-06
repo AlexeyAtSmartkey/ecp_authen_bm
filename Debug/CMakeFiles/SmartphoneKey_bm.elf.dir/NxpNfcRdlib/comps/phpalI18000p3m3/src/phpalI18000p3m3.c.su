@@ -1,0 +1,8 @@
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c:35:12:phpalI18000p3m3_Exchange	48	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c:119:12:phpalI18000p3m3_Select	48	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c:488:12:phpalI18000p3m3_CreateSelectCmd	56	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c:581:12:phpalI18000p3m3_CreateBeginRoundCmd	48	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c:662:12:phpalI18000p3m3_Ack	40	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c:750:12:phpalI18000p3m3_Nak	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c:798:12:phpalI18000p3m3_ActivateCard	56	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c:862:12:phpalI18000p3m3_SetConfig	24	static

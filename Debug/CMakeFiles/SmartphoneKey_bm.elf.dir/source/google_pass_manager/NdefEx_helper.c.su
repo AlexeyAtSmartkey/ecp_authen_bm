@@ -1,0 +1,4 @@
+C:/nxp/projects/ecp_authen_bm/source/google_pass_manager/NdefEx_helper.c:51:6:GenerateRandomBytes	24	static
+C:/nxp/projects/ecp_authen_bm/source/google_pass_manager/NdefEx_helper.c:65:6:GenerateSessionID	16	static
+C:/nxp/projects/ecp_authen_bm/source/google_pass_manager/NdefEx_helper.c:69:6:GenerateTerminalNonce	16	static
+C:/nxp/projects/ecp_authen_bm/source/google_pass_manager/NdefEx_helper.c:73:21:GetTestPrivateKeys	4	static

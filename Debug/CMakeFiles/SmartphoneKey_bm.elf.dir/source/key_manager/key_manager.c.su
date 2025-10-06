@@ -1,0 +1,5 @@
+C:/nxp/projects/ecp_authen_bm/source/key_manager/key_manager.c:129:12:KEY_MANAGER_init	16	static
+C:/nxp/projects/ecp_authen_bm/source/key_manager/key_manager.c:141:15:KEY_get	16	static
+C:/nxp/projects/ecp_authen_bm/source/key_manager/key_manager.c:200:10:TRANSACTION_MAC_KEY_get	4	static
+C:/nxp/projects/ecp_authen_bm/source/key_manager/key_manager.c:206:19:StoreKeysInKeyStore	56	static
+C:/nxp/projects/ecp_authen_bm/source/key_manager/key_manager.c:263:19:AddToKeyStore	32	static

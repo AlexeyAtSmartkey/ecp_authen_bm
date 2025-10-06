@@ -1,0 +1,23 @@
+{
+  "version": 7,
+  "cmakeMinimumRequired": {
+    "major": 3
+  },
+  "configurePresets": [
+    {
+      "name": "Debug-env",
+      "displayName": "Debug-env",
+      "hidden": true,
+      "environment": {
+        "ARMGCC_DIR": "C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi",
+        "SdkRootDirPath": "c:/nxp/sdk/PN7642_MCUXpresso_SDK_02-15-004_PUB",
+        "POSTPROCESS_UTILITY": "C:/Users/alexe/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
+        "MCUX_VENV_PATH": "C:/Users/alexe/.mcuxpressotools/.venv/Scripts",
+        "PATH": "$env{MCUX_VENV_PATH}${pathListSep}$penv{PATH}",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      },
+      "cacheVariables": {}
+    }
+  ],
+  "buildPresets": []
+}

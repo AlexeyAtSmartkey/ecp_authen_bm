@@ -1,0 +1,8 @@
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalVca/src/phalVca_Int.c:29:12:phalVca_Int_ComputeErrorResponse	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalVca/src/phalVca_Int.c:87:12:phalVca_Int_ComputeErrorResponse_Extended	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalVca/src/phalVca_Int.c:140:12:phalVca_Int_PrepareProximityCheck	40	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalVca/src/phalVca_Int.c:172:12:phalVca_Int_ProximityCheck	56	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalVca/src/phalVca_Int.c:243:12:phalVca_Int_PrepareProximityCheckNew	48	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalVca/src/phalVca_Int.c:325:12:phalVca_Int_ProximityCheckNew	64	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalVca/src/phalVca_Int.c:464:12:phalVca_Int_SendISOWrappedCmd	48	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phalVca/src/phalVca_Int.c:563:12:phalVca_Int_GetHalDataParams	16	static

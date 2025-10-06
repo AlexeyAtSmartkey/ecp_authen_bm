@@ -1,0 +1,14 @@
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/mBedTLS/phCryptoSym_mBedTLS.c:37:12:phCryptoSym_mBedTLS_Init	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/mBedTLS/phCryptoSym_mBedTLS.c:62:12:phCryptoSym_mBedTLS_DeInit	16	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/mBedTLS/phCryptoSym_mBedTLS.c:75:12:phCryptoSym_mBedTLS_InvalidateKey	16	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/mBedTLS/phCryptoSym_mBedTLS.c:93:12:phCryptoSym_mBedTLS_Encrypt	64	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/mBedTLS/phCryptoSym_mBedTLS.c:218:12:phCryptoSym_mBedTLS_Decrypt	56	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/mBedTLS/phCryptoSym_mBedTLS.c:300:12:phCryptoSym_mBedTLS_CalculateMac	96	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/mBedTLS/phCryptoSym_mBedTLS.c:458:12:phCryptoSym_mBedTLS_LoadIv	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/mBedTLS/phCryptoSym_mBedTLS.c:478:12:phCryptoSym_mBedTLS_LoadKey	72	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/mBedTLS/phCryptoSym_mBedTLS.c:525:12:phCryptoSym_mBedTLS_LoadKeyDirect	40	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/mBedTLS/phCryptoSym_mBedTLS.c:606:12:phCryptoSym_mBedTLS_DiversifyKey	80	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/mBedTLS/phCryptoSym_mBedTLS.c:660:12:phCryptoSym_mBedTLS_DiversifyDirectKey	72	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/mBedTLS/phCryptoSym_mBedTLS.c:1043:12:phCryptoSym_mBedTLS_SetConfig	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/mBedTLS/phCryptoSym_mBedTLS.c:1070:12:phCryptoSym_mBedTLS_GetConfig	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/mBedTLS/phCryptoSym_mBedTLS.c:1167:12:phCryptoSym_mBedTLS_GetLastStatus	24	static

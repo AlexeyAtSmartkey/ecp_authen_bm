@@ -1,0 +1,5 @@
+C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/platform.c:58:8:mbedtls_calloc	16	static
+C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/platform.c:63:6:mbedtls_free	16	static
+C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/platform.c:68:5:mbedtls_platform_set_calloc_free	16	static
+C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/platform.c:369:5:mbedtls_platform_setup	16	static
+C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/platform.c:379:6:mbedtls_platform_teardown	16	static

@@ -1,0 +1,5 @@
+C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/ecc_alt.c:86:5:mbedtls_ecp_gen_keypair	32	static
+C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/ecc_alt.c:134:5:mbedtls_ecdsa_sign	64	static
+C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/ecc_alt.c:196:5:mbedtls_ecdsa_verify	56	static
+C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/ecc_alt.c:251:5:mbedtls_ecdh_compute_shared	56	static
+C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/ecc_alt.c:314:5:phmbedcrypto_Get_AsymmPubKey	40	static

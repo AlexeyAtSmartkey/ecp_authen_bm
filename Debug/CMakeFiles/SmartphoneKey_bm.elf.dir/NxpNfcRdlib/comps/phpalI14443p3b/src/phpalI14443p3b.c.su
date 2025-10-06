@@ -1,0 +1,14 @@
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3b/src/phpalI14443p3b.c:38:12:phpalI14443p3b_SetConfig	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3b/src/phpalI14443p3b.c:89:12:phpalI14443p3b_GetConfig	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3b/src/phpalI14443p3b.c:141:12:phpalI14443p3b_RequestB	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3b/src/phpalI14443p3b.c:206:12:phpalI14443p3b_WakeUpB	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3b/src/phpalI14443p3b.c:271:12:phpalI14443p3b_SlotMarker	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3b/src/phpalI14443p3b.c:330:12:phpalI14443p3b_HaltB	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3b/src/phpalI14443p3b.c:375:12:phpalI14443p3b_Attrib	48	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3b/src/phpalI14443p3b.c:441:12:phpalI14443p3b_ActivateCard	72	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3b/src/phpalI14443p3b.c:545:12:phpalI14443p3b_Exchange	40	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3b/src/phpalI14443p3b.c:611:12:phpalI14443p3b_GetSerialNo	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3b/src/phpalI14443p3b.c:660:12:phpalI14443p3b_SetSerialNo	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3b/src/phpalI14443p3b.c:708:12:phpalI14443p3b_SetHigherLayerInf	40	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3b/src/phpalI14443p3b.c:762:12:phpalI14443p3b_GetHigherLayerResp	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3b/src/phpalI14443p3b.c:818:12:phpalI14443p3b_GetProtocolParams	48	static

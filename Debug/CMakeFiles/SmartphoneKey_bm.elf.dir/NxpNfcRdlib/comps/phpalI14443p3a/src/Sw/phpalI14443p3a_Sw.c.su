@@ -1,0 +1,13 @@
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c:33:12:phpalI14443p3a_Sw_Init	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c:60:12:phpalI14443p3a_Sw_SetConfig	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c:109:12:phpalI14443p3a_Sw_GetConfig	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c:149:12:phpalI14443p3a_Sw_RequestA	16	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c:157:12:phpalI14443p3a_Sw_WakeUpA	16	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c:166:12:phpalI14443p3a_Sw_VASUpA	48	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c:293:12:phpalI14443p3a_Sw_HaltA	40	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c:332:12:phpalI14443p3a_Sw_Anticollision	64	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c:578:12:phpalI14443p3a_Sw_Select	40	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c:589:12:phpalI14443p3a_Sw_ActivateCard	48	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c:847:12:phpalI14443p3a_Sw_Exchange	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c:866:12:phpalI14443p3a_Sw_RequestAEx	48	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c:951:12:phpalI14443p3a_Sw_GetSerialNo	24	static

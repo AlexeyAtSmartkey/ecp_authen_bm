@@ -1,0 +1,8 @@
+C:/nxp/projects/ecp_authen_bm/source/google_pass_manager/ApduEx.c:14:22:GetSessionSmartTapData	4	static
+C:/nxp/projects/ecp_authen_bm/source/google_pass_manager/ApduEx.c:18:12:CheckFci	40	static
+C:/nxp/projects/ecp_authen_bm/source/google_pass_manager/ApduEx.c:179:12:SelectSmartTapOse	72	static
+C:/nxp/projects/ecp_authen_bm/source/google_pass_manager/ApduEx.c:206:12:SelectSmartTap	72	static
+C:/nxp/projects/ecp_authen_bm/source/google_pass_manager/ApduEx.c:249:12:NegotiateSmartTapSecureSession	288	static
+C:/nxp/projects/ecp_authen_bm/source/google_pass_manager/ApduEx.c:286:12:GetSmartTapData	216	static
+C:/nxp/projects/ecp_authen_bm/source/google_pass_manager/ApduEx.c:329:12:GetSmartTapAddData	56	static
+C:/nxp/projects/ecp_authen_bm/source/google_pass_manager/ApduEx.c:369:12:GetSmartTapProcessingOptions	288	static

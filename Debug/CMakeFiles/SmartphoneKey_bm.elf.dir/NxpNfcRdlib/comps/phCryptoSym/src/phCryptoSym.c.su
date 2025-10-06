@@ -1,0 +1,15 @@
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/phCryptoSym.c:40:12:phCryptoSym_InvalidateKey	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/phCryptoSym.c:94:12:phCryptoSym_Encrypt	40	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/phCryptoSym.c:166:12:phCryptoSym_Decrypt	40	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/phCryptoSym.c:238:12:phCryptoSym_CalculateMac	40	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/phCryptoSym.c:313:12:phCryptoSym_LoadIv	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/phCryptoSym.c:372:12:phCryptoSym_LoadKey	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/phCryptoSym.c:432:12:phCryptoSym_LoadKeyDirect	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/phCryptoSym.c:491:12:phCryptoSym_DiversifyKey	48	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/phCryptoSym.c:568:12:phCryptoSym_DiversifyDirectKey	48	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/phCryptoSym.c:646:12:phCryptoSym_ApplyPadding	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/phCryptoSym.c:706:12:phCryptoSym_RemovePadding	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/phCryptoSym.c:782:12:phCryptoSym_SetConfig	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/phCryptoSym.c:840:12:phCryptoSym_GetConfig	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/phCryptoSym.c:904:12:phCryptoSym_GetLastStatus	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoSym/src/phCryptoSym.c:964:10:phCryptoSym_GetKeySize	16	static

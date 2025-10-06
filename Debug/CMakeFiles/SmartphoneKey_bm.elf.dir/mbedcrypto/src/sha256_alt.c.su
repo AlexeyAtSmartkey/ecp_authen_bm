@@ -1,0 +1,6 @@
+C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/sha256_alt.c:80:6:mbedtls_sha256_init	16	static
+C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/sha256_alt.c:85:6:mbedtls_sha256_free	16	static
+C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/sha256_alt.c:90:5:mbedtls_sha256_starts_ret	16	static
+C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/sha256_alt.c:96:5:mbedtls_sha256_update_ret	24	static
+C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/sha256_alt.c:104:5:mbedtls_sha256_finish_ret	16	static
+C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/sha256_alt.c:111:5:mbedtls_sha256_ret	24	static

@@ -1,0 +1,16 @@
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_clock.h:275:24:CLOCK_SetUsbPllSource	16	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_clock.h:289:24:CLOCK_StartUsbPll	8	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_clock.c:48:17:CLOCK_StartClifPll	16	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_clock.c:70:10:CLOCK_GetFreq	24	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_clock.c:93:10:CLOCK_GetCoreSysClkFreq	16	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_clock.c:119:10:CLOCK_InitOsc	16	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_clock.c:156:10:CLOCK_InitUsbPll	16	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_clock.c:204:10:CLOCK_GetLpuartClkFreq	16	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_clock.c:216:10:CLOCK_GetSpiClkFreq	16	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_clock.c:228:10:CLOCK_GetI2cClkFreq	16	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_clock.c:240:10:CLOCK_GetSctClkFreq	16	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_clock.c:251:10:CLOCK_GetGptClkFreq	16	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_clock.c:263:10:CLOCK_GetGpadcClkFreq	24	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_clock.c:290:10:CLOCK_GetCtClkFreq	16	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_clock.c:301:10:CLOCK_GetClifClkFreq	16	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_clock.c:312:6:CLOCK_SetLpuartClk	16	static

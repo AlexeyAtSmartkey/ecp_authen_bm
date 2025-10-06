@@ -1,0 +1,13 @@
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_gpio.c:62:6:GPIO_PinInit	24	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_gpio.c:90:6:GPIO_PinWrite	16	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_gpio.c:109:10:GPIO_PinRead	24	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_gpio.c:129:6:GPIO_PinSetInterruptEdge	16	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_gpio.c:144:10:GPIO_PinGetInterruptStatus	24	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_gpio.c:160:6:GPIO_PinClearInterruptStatus	16	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_gpio.c:173:6:GPIO_PinEnableInterrupt	16	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_gpio.c:193:10:GPIO_RegisterCallback	24	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_gpio.c:221:13:GPIO_CommonIRQ	16	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_gpio.c:235:6:GPIO0_IRQHandler	8	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_gpio.c:241:6:GPIO1_IRQHandler	8	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_gpio.c:247:6:GPIO2_IRQHandler	8	static
+C:/nxp/projects/ecp_authen_bm/drivers/fsl_gpio.c:253:6:GPIO3_IRQHandler	8	static

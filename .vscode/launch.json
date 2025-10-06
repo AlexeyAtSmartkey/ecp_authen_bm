@@ -1,0 +1,33 @@
+{
+  "configurations": [
+    {
+      "type": "mcuxpresso-debug",
+      "name": "Debug",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "executable": {
+        "elf": "${workspaceFolder}/Debug/SmartphoneKey_bm.elf"
+      },
+      "stopAtSymbol": "main",
+      "probeSerialNumber": "LEGJHA4QCEX2F",
+      "isAttach": false,
+      "skipBuildBeforeDebug": false,
+      "gdbInitCommands": [
+        "set remotetimeout 600",
+        "set debug-file-directory",
+        "set non-stop off"
+      ],
+      "gdbServerConfigs": {
+        "linkserver": {},
+        "segger": {
+          "device": "Cortex-M33",   // generic Cortex-M33 core
+          "interface": "SWD",       // or "JTAG" if you wired it that way
+          "speed": "4000",          // kHz, change if you want slower/faster
+          "resetAfterLoad": 1
+        },
+        "pemicro": {}
+      },
+      "showDevDebugOutput": "none"
+    }
+  ]
+}

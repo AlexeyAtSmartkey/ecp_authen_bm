@@ -1,0 +1,7 @@
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c:41:12:phpalI14443p4a_Sw_Init	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c:72:12:phpalI14443p4a_Sw_SetConfig	16	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c:106:12:phpalI14443p4a_Sw_GetConfig	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c:137:12:phpalI14443p4a_Sw_Rats	72	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c:502:12:phpalI14443p4a_Sw_Pps	48	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c:592:12:phpalI14443p4a_Sw_ActivateCard	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c:707:12:phpalI14443p4a_Sw_GetProtocolParams	24	static

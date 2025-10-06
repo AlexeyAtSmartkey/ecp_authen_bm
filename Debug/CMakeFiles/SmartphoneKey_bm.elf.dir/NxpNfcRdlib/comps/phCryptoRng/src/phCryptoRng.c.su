@@ -1,0 +1,3 @@
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoRng/src/phCryptoRng.c:37:12:phCryptoRng_Seed	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoRng/src/phCryptoRng.c:96:12:phCryptoRng_Rnd	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoRng/src/phCryptoRng.c:160:12:phCryptoRng_GetLastStatus	32	static

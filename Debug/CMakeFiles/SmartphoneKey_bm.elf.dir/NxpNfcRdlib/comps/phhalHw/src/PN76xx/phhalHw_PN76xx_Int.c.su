@@ -1,0 +1,12 @@
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phhalHw/src/PN76xx/phhalHw_PN76xx_Int.c:44:12:phhalHw_Pn76xx_Int_GetTxBuffer	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phhalHw/src/PN76xx/phhalHw_PN76xx_Int.c:70:12:phhalHw_Pn76xx_Int_GetRxBuffer	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phhalHw/src/PN76xx/phhalHw_PN76xx_Int.c:93:12:phhalHw_Pn76xx_Int_TimerStart	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phhalHw/src/PN76xx/phhalHw_PN76xx_Int.c:119:12:phhalHw_Pn76xx_SetConfig_Int	232	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phhalHw/src/PN76xx/phhalHw_PN76xx_Int.c:279:12:phhalHw_Pn76xx_Int_SetCardMode	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phhalHw/src/PN76xx/phhalHw_PN76xx_Int.c:623:12:phhalHw_Pn76xx_Int_SetTxDataRateFraming	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phhalHw/src/PN76xx/phhalHw_PN76xx_Int.c:705:12:phhalHw_Pn76xx_Int_SetRxDataRateFraming	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phhalHw/src/PN76xx/phhalHw_PN76xx_Int.c:745:12:phhalHw_Pn76xx_Int_SetMinFdt	24	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phhalHw/src/PN76xx/phhalHw_PN76xx_Int.c:816:12:phhalHw_Pn76xx_Int_SetTmo	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phhalHw/src/PN76xx/phhalHw_PN76xx_Int.c:872:12:phhalHw_Pn76xx_Int_ClearNSetRegFields	32	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phhalHw/src/PN76xx/phhalHw_PN76xx_Int.c:896:12:phhalHw_Pn76xx_Int_EpcGen2Inventory	96	static
+C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phhalHw/src/PN76xx/phhalHw_PN76xx_Int.c:990:12:phhalHw_Pn76xx_Int_EpcGen2ResumeInventory	56	static
