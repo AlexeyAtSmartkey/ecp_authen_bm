@@ -73,8 +73,7 @@ void SpiSend(PN_COM_CMD_t cmd, const uint8_t *data, uint16_t size) {
     s_cmd_sent  = (uint8_t)cmd;
     s_bus   = BUS_BUSY;
     s_stage = ST_TX;
-    DEBUG_PRINTF("TX len=%u, first bytes: %02X %02X %02X %02X\n",
-                tx_buf_size, SpiTxBuf[0], SpiTxBuf[1], SpiTxBuf[2], SpiTxBuf[3]);
+    // DEBUG_PRINTF("TX len=%u, first bytes: %02X %02X %02X %02X\n", tx_buf_size, SpiTxBuf[0], SpiTxBuf[1], SpiTxBuf[2], SpiTxBuf[3]);
     SpiHwExchange(SpiTxBuf, SpiRxBuf, tx_buf_size);
 }
 
