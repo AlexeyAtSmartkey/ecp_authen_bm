@@ -1,7 +1,7 @@
 
 #include <cr_section_macros.h>
-#include "nrf_comm.h"
-#include "nrf_comm_protocol.h"
+#include "spi_comm.h"
+#include "spi_protocol.h"
 #include "fsl_spi.h"
 #include <PN76_Flc.h>
 #include "PN76_DL.h"
@@ -56,7 +56,7 @@ __TEXT(Flash2) void OTA_start(void)
 	__disable_irq();
 
 	// Reconfig SPI to work in polling mode
-	NRF_COMM_reinitForOta();
+	SpiHwReinitForOta();
 
 	// Wait for some ms
 	delay_cycles = 0;
@@ -138,7 +138,7 @@ void OTA_FRAME_REQUEST_send(uint16_t frame_number)
 	idx += 2;
 
 	// Add crc16
-	*((uint16_t *)&ota_tx_transfer_buf[idx]) = NRF_COMM_PROTOCOL_CRC16_calculate(ota_tx_transfer_buf, idx);
+	*((uint16_t *)&ota_tx_transfer_buf[idx]) = Crc16Modbus(ota_tx_transfer_buf, idx);
 
 
 	// Send frame request
@@ -167,7 +167,7 @@ __TEXT(Flash2) uint8_t OTA_FRAME_receive(void)
 	// Check header, size and crc
 	if((*((uint16_t *)&ota_rx_transfer_buf[0]) != PN_COMM_PROTOCOL_HEADER) ||
 			(*((uint16_t *)&ota_rx_transfer_buf[2]) != (sizeof(ota_rx_transfer_buf) - 4)) ||
-			(*((uint16_t *)&ota_rx_transfer_buf[sizeof(ota_rx_transfer_buf) - 2]) != NRF_COMM_PROTOCOL_CRC16_calculate(ota_rx_transfer_buf, sizeof(ota_rx_transfer_buf) - 2)))
+			(*((uint16_t *)&ota_rx_transfer_buf[sizeof(ota_rx_transfer_buf) - 2]) != Crc16Modbus(ota_rx_transfer_buf, sizeof(ota_rx_transfer_buf) - 2)))
 	{
 		return 1;
 	}

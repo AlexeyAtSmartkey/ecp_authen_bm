@@ -29,8 +29,8 @@
 #include <phacDiscLoop.h>
 
 #include "ApduEx.h"
-#include "nrf_comm_protocol.h"
-#include "nrf_comm.h"
+#include "spi_protocol.h"
+#include "spi_comm.h"
 
 phStatus_t ProcessGoogleWallet(phacDiscLoop_Sw_DataParams_t *pDiscLoop);
 

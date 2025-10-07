@@ -4,11 +4,12 @@
 
 #include "SmartLock.h"
 #include "nfc_comm.h"
-#include "nrf_comm_protocol.h"
+#include "spi_protocol.h"
 #include "taskmanager.h"
 #include "led_blinky.h"
 #include "delay_ms.h"
 #include "device_manager.h"
+#include "nfc_comm.h"
 
 #include "pin_mux.h"
 #include "clock_config.h"
@@ -22,6 +23,9 @@
 
 void ANTENNA_POWER_config(void);
 static void dump_clock_eeprom(void);
+static void nrfSpiHeartbeatTask(void);
+
+volatile uint8_t HeartbeatReceived;
 
 //-------------------------------------------------------------
 int main (void) {
@@ -56,10 +60,12 @@ int main (void) {
 
 	delay_ms(500);
 
-	NRF_COMM_PROTOCOL_init();
+	SpiInit();
 
 	APP_InitMbedCrypto();
-	APP_DeInitMbedCrypto();	
+	APP_DeInitMbedCrypto();
+
+	TIME_TASK_create(&nrfSpiHeartbeatTask, NRF_HEART_BEAT_REQUEST_PERIOD_MS);
 
 #ifdef LED_BLINK
 	LED_BLINKY_init();
@@ -69,13 +75,16 @@ int main (void) {
 		NFC_COMM_process();
 		if (HeartbeatReceived) {
 			HeartbeatReceived = 0;
-			NRF_COMM_PROTOCOL_DATA_send(PN_HEART_BEAT_STATUS, (uint8_t *)DEVICE_STATUS_get(), sizeof(NFC_COMM_Status_t));// Send heart beat data request
+			SpiSend(PN_HEART_BEAT_STATUS, (uint8_t *)DEVICE_STATUS_get(), sizeof(NFC_COMM_Status_t));// Send heart beat data request
 		}
 	}
 
 	return 0;
 }
 
+static void nrfSpiHeartbeatTask(void){
+    HeartbeatReceived = 1;
+}
 
 
 // uint8_t pwr_mgm_regs[10];

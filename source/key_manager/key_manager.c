@@ -1,6 +1,6 @@
 
 #include <phApp_Init.h>
-#include "nfc_comm.h"
+#include "spi_comm.h"
 #include "key_manager.h"
 
 #define AES128_KEY_ADDRESS      					3U

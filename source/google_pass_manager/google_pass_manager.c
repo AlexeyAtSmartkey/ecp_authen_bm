@@ -39,13 +39,13 @@ int SendChunckedData(uint8_t *pData, size_t wDataLen, const bool final, const si
     uint8_t cmd            = PN_GW_READ_DATA_CHUNK;
     for (int chunk = 0; chunk < chunks; chunk++) {
         cmd = (final && chunk == (chunks - 1) && !wDataChunkRest) ? PN_GW_READ_DATA_END : PN_GW_READ_DATA_CHUNK;
-        NRF_COMM_PROTOCOL_WaitForBusFree();
-        NRF_COMM_PROTOCOL_DATA_send(cmd, pData + (chunk * wDataChunkLen), wDataChunkLen);
+        SpiWaitBusFree();
+        SpiSend(cmd, pData + (chunk * wDataChunkLen), wDataChunkLen);
     }
     if (!wDataChunkRest) return iResult;
     cmd = final ? PN_GW_READ_DATA_END : PN_GW_READ_DATA_CHUNK;
-    NRF_COMM_PROTOCOL_WaitForBusFree();
-    NRF_COMM_PROTOCOL_DATA_send(cmd, pData + (chunks * wDataChunkLen), wDataChunkRest);
+    SpiWaitBusFree();
+    SpiSend(cmd, pData + (chunks * wDataChunkLen), wDataChunkRest);
     return iResult;
 }
 

@@ -5,7 +5,7 @@
 #include "nfc_comm.h"
 #include "key_manager.h"
 #include "device_manager.h"
-#include "nrf_comm_protocol.h"
+#include "spi_protocol.h"
 
 
 
@@ -59,7 +59,7 @@ phStatus_t PICC_DATA_read(void *pDataParams)
 	{
 		// Send command with error code
 		err_code = NFC_READ_PICC_AUT_ERR;
-		NRF_COMM_PROTOCOL_DATA_send(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
+		SpiSend(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
 
 		return status;
 	}
@@ -71,7 +71,7 @@ phStatus_t PICC_DATA_read(void *pDataParams)
 	{
 		// Send command with error code
 		err_code = NFC_READ_APP_SELECT_ERR;
-		NRF_COMM_PROTOCOL_DATA_send(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
+		SpiSend(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
 
 		return status;
 	}
@@ -84,7 +84,7 @@ phStatus_t PICC_DATA_read(void *pDataParams)
 	{
 		// Send command with error code
 		err_code = NFC_READ_APP_AUT_ERR;
-		NRF_COMM_PROTOCOL_DATA_send(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
+		SpiSend(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
 
 		return status;
 	}
@@ -98,7 +98,7 @@ phStatus_t PICC_DATA_read(void *pDataParams)
 	{
 		// Send command with error code
 		err_code = NFC_READ_FILE_AUT_ERR;
-		NRF_COMM_PROTOCOL_DATA_send(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
+		SpiSend(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
 
 		return status;
 	}
@@ -111,7 +111,7 @@ phStatus_t PICC_DATA_read(void *pDataParams)
 	{
 		// Send command with error code
 		err_code = NFC_READ_DATA_READ_ERR;
-		NRF_COMM_PROTOCOL_DATA_send(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
+		SpiSend(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
 
 		return status;
 	}
@@ -123,7 +123,7 @@ phStatus_t PICC_DATA_read(void *pDataParams)
 	}
 
 	// Send data
-	NRF_COMM_PROTOCOL_DATA_send(PN_NFC_READ_DATA, respBuffer, data_length);
+	SpiSend(PN_NFC_READ_DATA, respBuffer, data_length);
 
 	return status;
 }
