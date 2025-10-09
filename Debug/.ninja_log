@@ -390,3 +390,5 @@
 2061	2308	7815036242982916	SmartphoneKey_bm.elf	aab20ec9f641f146
 17	164	7815036767504541	CMakeFiles/SmartphoneKey_bm.elf.dir/source/key_manager/key_manager.c.obj	2f45b7eed10233be
 164	400	7815036768976592	SmartphoneKey_bm.elf	aab20ec9f641f146
+30	308	7815888165658062	CMakeFiles/SmartphoneKey_bm.elf.dir/source/picc_manager/picc_manager.c.obj	1fc23a3e2030df93
+308	769	7815888168434718	SmartphoneKey_bm.elf	aab20ec9f641f146

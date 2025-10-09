@@ -52,17 +52,17 @@ phStatus_t PICC_DATA_read(void *pDataParams)
 	uint8_t err_code;
 
 	// Authenticate PICC Master Application with AES128 key new_aAES128Key for EV2 communication mode
-	status = phalMfdfEVx_AuthenticateEv2(pDataParams, PHAL_MFDFEVX_AUTH_FIRST, PHAL_MFDFEVX_NO_DIVERSIFICATION,
-			wKeyNo, wKeyVer, PICC_MASTER_KEY, NULL, 0, 0, PCDcap2, PCDcap2In, PDcap2In);
+	// status = phalMfdfEVx_AuthenticateEv2(pDataParams, PHAL_MFDFEVX_AUTH_FIRST, PHAL_MFDFEVX_NO_DIVERSIFICATION,
+	// 		wKeyNo, wKeyVer, PICC_MASTER_KEY, NULL, 0, 0, PCDcap2, PCDcap2In, PDcap2In);
 
-	if(status != 0)
-	{
-		// Send command with error code
-		err_code = NFC_READ_PICC_AUT_ERR;
-		SpiSend(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
+	// if(status != 0)
+	// {
+	// 	// Send command with error code
+	// 	err_code = NFC_READ_PICC_AUT_ERR;
+	// 	SpiSend(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
 
-		return status;
-	}
+	// 	return status;
+	// }
 
 	// Select application
 	status = phalMfdfEVx_SelectApplication(pDataParams, 0x00, picc_app_id, NULL);
