@@ -1,9 +1,0 @@
-C:/nxp/projects/ecp_authen_bm/CMSIS/core_cm33.h:2390:22:__NVIC_EnableIRQ	16	static
-C:/nxp/projects/ecp_authen_bm/CMSIS/core_cm33.h:2481:22:__NVIC_ClearPendingIRQ	16	static
-C:/nxp/projects/ecp_authen_bm/drivers/fsl_gpdma.h:209:20:GPDMA_SetChannelSourcePeripheral	16	static
-C:/nxp/projects/ecp_authen_bm/drivers/fsl_gpdma.h:236:20:GPDMA_SetChannelDestinationPeripheral	16	static
-C:/nxp/projects/ecp_authen_bm/source/nrf_comm/nrf_comm.c:48:13:NRF_COMM_SPI_MasterUserCallback	24	static
-C:/nxp/projects/ecp_authen_bm/source/nrf_comm/nrf_comm.c:60:13:NRF_COMM_GPIO_UserCallback	8	static
-C:/nxp/projects/ecp_authen_bm/source/nrf_comm/nrf_comm.c:66:6:NRF_COMM_init	64	static
-C:/nxp/projects/ecp_authen_bm/source/nrf_comm/nrf_comm.c:112:6:NRF_COMM_reinitForOta	8	static
-C:/nxp/projects/ecp_authen_bm/source/nrf_comm/nrf_comm.c:123:6:NRF_COMM_DATA_exchange	40	static

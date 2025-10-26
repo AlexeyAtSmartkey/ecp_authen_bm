@@ -1,9 +1,9 @@
 #include <phApp_Init.h>
 #include "SmartLock.h"
 #include "nfc_comm.h"
+#include "spi_protocol.h"
 #include "key_manager.h"
 #include "device_manager.h"
-#include "nrf_comm_protocol.h"
 #include "phpalI14443p4_Sw.h"
 
 // Array which are used for AuthenticateEV2 routine (actually reserved for new possible functionality of NXP PICCs)
@@ -41,7 +41,7 @@ phStatus_t APPLE_PASS_read(void *pDataParams, phacDiscLoop_Sw_DataParams_t *disc
 	{
 		// Send command with error code
 		err_code = NFC_READ_APP_SELECT_ERR;
-		NRF_COMM_PROTOCOL_DATA_send(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
+		SpiSend(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
 
 		return status;
 	}
@@ -53,7 +53,7 @@ phStatus_t APPLE_PASS_read(void *pDataParams, phacDiscLoop_Sw_DataParams_t *disc
 
 	if(status != 0) {
 		err_code = NFC_READ_APP_AUT_ERR;
-		NRF_COMM_PROTOCOL_DATA_send(PN_CARD_READ_ERROR, &err_code, sizeof(err_code)); // Send command with error code
+		SpiSend(PN_CARD_READ_ERROR, &err_code, sizeof(err_code)); // Send command with error code
 		return status;
 	}
 
@@ -64,7 +64,7 @@ phStatus_t APPLE_PASS_read(void *pDataParams, phacDiscLoop_Sw_DataParams_t *disc
 
 	if(status != 0) {
 		err_code = NFC_READ_DATA_READ_ERR;												// Send command with error code
-		NRF_COMM_PROTOCOL_DATA_send(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
+		SpiSend(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
 		return status;
 	}
 
@@ -103,7 +103,7 @@ phStatus_t APPLE_PASS_read(void *pDataParams, phacDiscLoop_Sw_DataParams_t *disc
 	status = phpalI14443p4_Sw_Deselect(discLoop->pPal14443p4DataParams);
 
 	// Send data
-	NRF_COMM_PROTOCOL_DATA_send(PN_NFC_READ_DATA, respBuffer, NFC_WRITE_DATA_SIZE);
+	SpiSend(PN_NFC_READ_DATA, respBuffer, NFC_WRITE_DATA_SIZE);
 
 	return status;
 }

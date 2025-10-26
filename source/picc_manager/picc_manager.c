@@ -5,7 +5,7 @@
 #include "nfc_comm.h"
 #include "key_manager.h"
 #include "device_manager.h"
-#include "nrf_comm_protocol.h"
+#include "spi_protocol.h"
 
 
 
@@ -52,17 +52,17 @@ phStatus_t PICC_DATA_read(void *pDataParams)
 	uint8_t err_code;
 
 	// Authenticate PICC Master Application with AES128 key new_aAES128Key for EV2 communication mode
-	status = phalMfdfEVx_AuthenticateEv2(pDataParams, PHAL_MFDFEVX_AUTH_FIRST, PHAL_MFDFEVX_NO_DIVERSIFICATION,
-			wKeyNo, wKeyVer, PICC_MASTER_KEY, NULL, 0, 0, PCDcap2, PCDcap2In, PDcap2In);
+	// status = phalMfdfEVx_AuthenticateEv2(pDataParams, PHAL_MFDFEVX_AUTH_FIRST, PHAL_MFDFEVX_NO_DIVERSIFICATION,
+	// 		wKeyNo, wKeyVer, PICC_MASTER_KEY, NULL, 0, 0, PCDcap2, PCDcap2In, PDcap2In);
 
-	if(status != 0)
-	{
-		// Send command with error code
-		err_code = NFC_READ_PICC_AUT_ERR;
-		NRF_COMM_PROTOCOL_DATA_send(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
+	// if(status != 0)
+	// {
+	// 	// Send command with error code
+	// 	err_code = NFC_READ_PICC_AUT_ERR;
+	// 	SpiSend(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
 
-		return status;
-	}
+	// 	return status;
+	// }
 
 	// Select application
 	status = phalMfdfEVx_SelectApplication(pDataParams, 0x00, picc_app_id, NULL);
@@ -71,7 +71,7 @@ phStatus_t PICC_DATA_read(void *pDataParams)
 	{
 		// Send command with error code
 		err_code = NFC_READ_APP_SELECT_ERR;
-		NRF_COMM_PROTOCOL_DATA_send(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
+		SpiSend(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
 
 		return status;
 	}
@@ -84,7 +84,7 @@ phStatus_t PICC_DATA_read(void *pDataParams)
 	{
 		// Send command with error code
 		err_code = NFC_READ_APP_AUT_ERR;
-		NRF_COMM_PROTOCOL_DATA_send(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
+		SpiSend(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
 
 		return status;
 	}
@@ -98,7 +98,7 @@ phStatus_t PICC_DATA_read(void *pDataParams)
 	{
 		// Send command with error code
 		err_code = NFC_READ_FILE_AUT_ERR;
-		NRF_COMM_PROTOCOL_DATA_send(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
+		SpiSend(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
 
 		return status;
 	}
@@ -111,7 +111,7 @@ phStatus_t PICC_DATA_read(void *pDataParams)
 	{
 		// Send command with error code
 		err_code = NFC_READ_DATA_READ_ERR;
-		NRF_COMM_PROTOCOL_DATA_send(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
+		SpiSend(PN_CARD_READ_ERROR, &err_code, sizeof(err_code));
 
 		return status;
 	}
@@ -123,7 +123,7 @@ phStatus_t PICC_DATA_read(void *pDataParams)
 	}
 
 	// Send data
-	NRF_COMM_PROTOCOL_DATA_send(PN_NFC_READ_DATA, respBuffer, data_length);
+	SpiSend(PN_NFC_READ_DATA, respBuffer, data_length);
 
 	return status;
 }

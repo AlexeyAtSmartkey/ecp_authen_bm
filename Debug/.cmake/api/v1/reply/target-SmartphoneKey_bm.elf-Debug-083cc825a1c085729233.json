@@ -514,11 +514,11 @@
 				},
 				{
 					"backtrace" : 11,
-					"path" : "C:/nxp/projects/ecp_authen_bm/source/nfc_comm"
+					"path" : "C:/nxp/projects/ecp_authen_bm/source/nrf_comm"
 				},
 				{
 					"backtrace" : 11,
-					"path" : "C:/nxp/projects/ecp_authen_bm/source/nrf_comm"
+					"path" : "C:/nxp/projects/ecp_authen_bm/source/nfc_comm"
 				},
 				{
 					"backtrace" : 11,
@@ -2552,13 +2552,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "source/nrf_comm/nrf_comm_protocol.c",
+			"path" : "source/nrf_comm/spi_protocol.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "source/nrf_comm/nrf_comm.c",
+			"path" : "source/nrf_comm/spi_comm.c",
 			"sourceGroupIndex" : 1
 		},
 		{
