@@ -285,16 +285,13 @@ static uint16_t ProcessCard() {
     phStatus_t    status;
     status = APPLE_PASS_read(palMfdfEVx, pDiscLoop);
     if(status != 0) {
-        if (APP_InitMbedCrypto() == PN76_STATUS_SUCCESS) {
-            status = ProcessGoogleWallet(pDiscLoop);
-        } else {
+        if (APP_InitMbedCrypto() == PN76_STATUS_SUCCESS) { status = ProcessGoogleWallet(pDiscLoop); }
+        else {
             DEBUG_PRINTF("Crypto initialization failure\n");
             status = -1;
         }
         APP_DeInitMbedCrypto();
-        if(status != 0) {
-            status = PICC_DATA_read(palMfdfEVx);
-        }
+        if(status != 0) { status = PICC_DATA_read(palMfdfEVx); }
     }
     return status;
 }
