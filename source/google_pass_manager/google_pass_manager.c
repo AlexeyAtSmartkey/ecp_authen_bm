@@ -32,7 +32,7 @@
 *******************************************************************************/
 
 
-int SendChunckedData(uint8_t *pData, size_t wDataLen, const bool final, const size_t wDataChunkLen) {
+int SendChunckedData(uint8_t *pData, size_t wDataLen, const size_t wDataChunkLen, const bool final) {
     size_t  wDataChunkRest = wDataLen % wDataChunkLen;
     size_t  chunks         = (wDataLen / wDataChunkLen);
     int     iResult        = 0;
@@ -106,35 +106,16 @@ phStatus_t ProcessGoogleWallet(phacDiscLoop_Sw_DataParams_t *pDiscLoop) {
 	}
 
     // DEBUG_PRINTF("Sending terminal private key\n");
-    SendChunckedData(
-        g_smartTapData->terminal_private_key, 
-        sizeof(g_smartTapData->terminal_private_key), 
-        false, 
-        sizeof(g_smartTapData->terminal_private_key)
-    );
-
-    SendChunckedData(
-        g_smartTapData->mobile_compressed_public_key, 
-        sizeof(g_smartTapData->mobile_compressed_public_key), 
-        false, 
-        sizeof(g_smartTapData->mobile_compressed_public_key)
-    );
-
-    SendChunckedData(
-        g_smartTapData->terminal_nonce, 
-        SIGNED_SESSION_DATA_LEN, 
-        false, 
-        32
-    );
-
-    SendChunckedData(
-        (uint8_t*)&(g_smartTapData->der_signature_len), 
-        g_smartTapData->der_signature_len + 1, 
-        false, 
-        32
-    );
-
-    SendChunckedData(pRxBuffer, wRxBufferLen, true, 32);
+    SendChunckedData(g_smartTapData->terminal_private_key, sizeof(g_smartTapData->terminal_private_key), sizeof(g_smartTapData->terminal_private_key), false);
+    // DEBUG_PRINT_ARR("Terminal private key:", g_smartTapData->terminal_private_key, sizeof(g_smartTapData->terminal_private_key));
+    SendChunckedData(g_smartTapData->mobile_compressed_public_key, sizeof(g_smartTapData->mobile_compressed_public_key), sizeof(g_smartTapData->mobile_compressed_public_key), false);
+    // DEBUG_PRINT_ARR("Mobile compressed public key:", g_smartTapData->mobile_compressed_public_key, sizeof(g_smartTapData->mobile_compressed_public_key));
+    SendChunckedData(g_smartTapData->terminal_nonce, SIGNED_SESSION_DATA_LEN, 32, false);
+    // DEBUG_PRINT_ARR("Terminal nonce:", g_smartTapData->terminal_nonce, SIGNED_SESSION_DATA_LEN);
+    SendChunckedData((uint8_t*)&(g_smartTapData->der_signature_len), g_smartTapData->der_signature_len + 1, 32, false);
+    // DEBUG_PRINT_ARR("DER signature:", g_smartTapData->der_signature, g_smartTapData->der_signature_len);
+    SendChunckedData(pRxBuffer, wRxBufferLen, 32, true);
+    // DEBUG_PRINT_ARR("Data:", pRxBuffer, wRxBufferLen);
 
 	// status = phhalHw_FieldOn(pHal);
 

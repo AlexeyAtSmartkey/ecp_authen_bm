@@ -21086,100 +21086,101 @@ END GROUP
                 0x002278c0       0x18 CMakeFiles/SmartphoneKey_bm.elf.dir/source/google_pass_manager/NdefEx_helper.c.obj
                 0x002278c0                GenerateTerminalNonce
  .text.SendChunckedData
-                0x002278d8       0xc0 CMakeFiles/SmartphoneKey_bm.elf.dir/source/google_pass_manager/google_pass_manager.c.obj
+                0x002278d8       0xbe CMakeFiles/SmartphoneKey_bm.elf.dir/source/google_pass_manager/google_pass_manager.c.obj
                 0x002278d8                SendChunckedData
- .text.memcmp   0x00227998       0x20 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-memcmp.o)
-                0x00227998                memcmp
- .text.memset   0x002279b8       0x10 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-memset.o)
-                0x002279b8                memset
+ .text.memcmp   0x00227996       0x20 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-memcmp.o)
+                0x00227996                memcmp
+ .text.memset   0x002279b6       0x10 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-memset.o)
+                0x002279b6                memset
  .text.__retarget_lock_init_recursive
-                0x002279c8        0x2 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-lock.o)
-                0x002279c8                __retarget_lock_init_recursive
+                0x002279c6        0x2 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-lock.o)
+                0x002279c6                __retarget_lock_init_recursive
  .text.__retarget_lock_acquire_recursive
-                0x002279ca        0x2 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-lock.o)
-                0x002279ca                __retarget_lock_acquire_recursive
+                0x002279c8        0x2 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-lock.o)
+                0x002279c8                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x002279cc        0x2 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-lock.o)
-                0x002279cc                __retarget_lock_release_recursive
+                0x002279ca        0x2 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-lock.o)
+                0x002279ca                __retarget_lock_release_recursive
  .text.__sfputc_r
-                0x002279ce       0x2a C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-nano-vfprintf.o)
+                0x002279cc       0x2a C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x002279f8       0x24 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-nano-vfprintf.o)
-                0x002279f8                __sfputs_r
+                0x002279f6       0x24 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-nano-vfprintf.o)
+                0x002279f6                __sfputs_r
  .text._printf_common
-                0x00227a1c       0xe4 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x00227a1c                _printf_common
+                0x00227a1a       0xe4 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x00227a1a                _printf_common
  .text._fwalk_sglue
-                0x00227b00       0x3c C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-fwalk.o)
-                0x00227b00                _fwalk_sglue
- .text.__sread  0x00227b3c       0x22 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-stdio.o)
-                0x00227b3c                __sread
+                0x00227afe       0x3c C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-fwalk.o)
+                0x00227afe                _fwalk_sglue
+ .text.__sread  0x00227b3a       0x22 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-stdio.o)
+                0x00227b3a                __sread
  .text.__swrite
-                0x00227b5e       0x38 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-stdio.o)
-                0x00227b5e                __swrite
- .text.__sseek  0x00227b96       0x26 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-stdio.o)
-                0x00227b96                __sseek
+                0x00227b5c       0x38 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-stdio.o)
+                0x00227b5c                __swrite
+ .text.__sseek  0x00227b94       0x26 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-stdio.o)
+                0x00227b94                __sseek
  .text.__sclose
-                0x00227bbc        0x8 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-stdio.o)
-                0x00227bbc                __sclose
+                0x00227bba        0x8 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-stdio.o)
+                0x00227bba                __sclose
  .text.__swbuf_r
-                0x00227bc4       0x7c C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-wbuf.o)
-                0x00227bc4                __swbuf_r
- .text.memchr   0x00227c40       0x1c C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-memchr-stub.o)
-                0x00227c40                memchr
+                0x00227bc2       0x7c C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-wbuf.o)
+                0x00227bc2                __swbuf_r
+ .text.memchr   0x00227c3e       0x1c C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-memchr-stub.o)
+                0x00227c3e                memchr
  .text._fflush_r
-                0x00227c5c       0x50 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-fflush.o)
-                0x00227c5c                _fflush_r
+                0x00227c5a       0x50 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-fflush.o)
+                0x00227c5a                _fflush_r
  .text.__swhatbuf_r
-                0x00227cac       0x48 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-makebuf.o)
-                0x00227cac                __swhatbuf_r
+                0x00227caa       0x48 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-makebuf.o)
+                0x00227caa                __swhatbuf_r
  .text.__smakebuf_r
-                0x00227cf4       0x72 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-makebuf.o)
-                0x00227cf4                __smakebuf_r
- .text.error    0x00227d66       0x1c C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
+                0x00227cf2       0x72 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-makebuf.o)
+                0x00227cf2                __smakebuf_r
+ .text.error    0x00227d64       0x1c C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
  .text.checkerror
-                0x00227d82        0xa C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
+                0x00227d80        0xa C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
  .text._swiread
-                0x00227d8c       0x20 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
-                0x00227d8c                _swiread
- .text._read    0x00227dac       0x34 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
-                0x00227dac                _read
+                0x00227d8a       0x20 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
+                0x00227d8a                _swiread
+ .text._read    0x00227daa       0x34 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
+                0x00227daa                _read
  .text._swilseek
-                0x00227de0       0x78 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
-                0x00227de0                _swilseek
- .text._lseek   0x00227e58        0x4 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
-                0x00227e58                _lseek
+                0x00227dde       0x78 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
+                0x00227dde                _swilseek
+ .text._lseek   0x00227e56        0x4 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
+                0x00227e56                _lseek
  .text._swiwrite
-                0x00227e5c       0x20 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
-                0x00227e5c                _swiwrite
- .text._write   0x00227e7c       0x40 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
-                0x00227e7c                _write
+                0x00227e5a       0x20 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
+                0x00227e5a                _swiwrite
+ .text._write   0x00227e7a       0x40 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
+                0x00227e7a                _write
  .text._swiclose
-                0x00227ebc       0x1a C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
-                0x00227ebc                _swiclose
- .text._getpid  0x00227ed6        0x4 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
-                0x00227ed6                _getpid
+                0x00227eba       0x1a C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
+                0x00227eba                _swiclose
+ .text._getpid  0x00227ed4        0x4 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
+                0x00227ed4                _getpid
  .text._swistat
-                0x00227eda       0x42 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
-                0x00227eda                _swistat
- .text._fstat   0x00227f1c       0x1c C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
-                0x00227f1c                _fstat
+                0x00227ed8       0x42 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
+                0x00227ed8                _swistat
+ .text._fstat   0x00227f1a       0x1c C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
+                0x00227f1a                _fstat
  .text._gettimeofday
-                0x00227f38       0x28 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
-                0x00227f38                _gettimeofday
- .text._isatty  0x00227f60       0x2a C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
-                0x00227f60                _isatty
- .text.abort    0x00227f8a        0xe C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-abort.o)
-                0x00227f8a                abort
+                0x00227f36       0x28 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
+                0x00227f36                _gettimeofday
+ .text._isatty  0x00227f5e       0x2a C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(syscalls.o)
+                0x00227f5e                _isatty
+ .text.abort    0x00227f88        0xe C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-abort.o)
+                0x00227f88                abort
  .text._raise_r
-                0x00227f98       0x50 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-signal.o)
-                0x00227f98                _raise_r
+                0x00227f96       0x50 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-signal.o)
+                0x00227f96                _raise_r
  .text._getpid_r
-                0x00227fe8        0x4 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-signalr.o)
-                0x00227fe8                _getpid_r
- .text._exit    0x00227fec        0x8 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(_exit.o)
-                0x00227fec                _exit
+                0x00227fe6        0x4 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main/nofp\libc_nano.a(libc_a-signalr.o)
+                0x00227fe6                _getpid_r
+ .text._exit    0x00227fea        0x8 C:/Users/alexe/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libcr_newlib_semihost.a(_exit.o)
+                0x00227fea                _exit
  *(SORT_BY_ALIGNMENT(.rodata) SORT_BY_ALIGNMENT(.rodata.*) SORT_BY_ALIGNMENT(.constdata) SORT_BY_ALIGNMENT(.constdata.*))
+ *fill*         0x00227ff2        0x2 ff
  .rodata.BOARD_BootClockRUN.str1.4
                 0x00227ff4     0x13b0 CMakeFiles/SmartphoneKey_bm.elf.dir/board/clock_config.c.obj
                                  0x53 (size before relaxing)
@@ -22759,7 +22760,7 @@ LOAD linker stubs
  .debug_macro   0x0002284f      0x60e CMakeFiles/SmartphoneKey_bm.elf.dir/source/google_pass_manager/NdefEx_helper.c.obj
  .debug_macro   0x00022e5d      0x65f CMakeFiles/SmartphoneKey_bm.elf.dir/source/google_pass_manager/google_pass_manager.c.obj
 
-.debug_line     0x00000000    0x458dc
+.debug_line     0x00000000    0x458e4
  .debug_line    0x00000000      0x59a CMakeFiles/SmartphoneKey_bm.elf.dir/board/pin_mux.c.obj
  .debug_line    0x0000059a      0x62a CMakeFiles/SmartphoneKey_bm.elf.dir/board/clock_config.c.obj
  .debug_line    0x00000bc4      0x66f CMakeFiles/SmartphoneKey_bm.elf.dir/board/board.c.obj
@@ -22837,17 +22838,17 @@ LOAD linker stubs
  .debug_line    0x0003b744      0xda1 CMakeFiles/SmartphoneKey_bm.elf.dir/source/apple_pass_manager/apple_pass_manager.c.obj
  .debug_line    0x0003c4e5      0xb2e CMakeFiles/SmartphoneKey_bm.elf.dir/source/device_manager/device_manager.c.obj
  .debug_line    0x0003d013      0xc5c CMakeFiles/SmartphoneKey_bm.elf.dir/source/key_manager/key_manager.c.obj
- .debug_line    0x0003dc6f     0x1241 CMakeFiles/SmartphoneKey_bm.elf.dir/source/nfc_comm/nfc_comm.c.obj
- .debug_line    0x0003eeb0      0xe96 CMakeFiles/SmartphoneKey_bm.elf.dir/source/nrf_comm/spi_protocol.c.obj
- .debug_line    0x0003fd46      0x8d3 CMakeFiles/SmartphoneKey_bm.elf.dir/source/nrf_comm/spi_comm.c.obj
- .debug_line    0x00040619      0x860 CMakeFiles/SmartphoneKey_bm.elf.dir/source/ota/ota.c.obj
- .debug_line    0x00040e79      0x69e CMakeFiles/SmartphoneKey_bm.elf.dir/source/taskmanager/peripheral/taskmanager_peripheral.c.obj
- .debug_line    0x00041517      0x354 CMakeFiles/SmartphoneKey_bm.elf.dir/source/taskmanager/taskmanager.c.obj
- .debug_line    0x0004186b      0x17d CMakeFiles/SmartphoneKey_bm.elf.dir/source/delay_ms/delay_ms.c.obj
- .debug_line    0x000419e8     0x11ba CMakeFiles/SmartphoneKey_bm.elf.dir/source/google_pass_manager/ApduEx.c.obj
- .debug_line    0x00042ba2     0x11a4 CMakeFiles/SmartphoneKey_bm.elf.dir/source/google_pass_manager/NdefEx.c.obj
- .debug_line    0x00043d46      0xc91 CMakeFiles/SmartphoneKey_bm.elf.dir/source/google_pass_manager/NdefEx_helper.c.obj
- .debug_line    0x000449d7      0xf05 CMakeFiles/SmartphoneKey_bm.elf.dir/source/google_pass_manager/google_pass_manager.c.obj
+ .debug_line    0x0003dc6f     0x1249 CMakeFiles/SmartphoneKey_bm.elf.dir/source/nfc_comm/nfc_comm.c.obj
+ .debug_line    0x0003eeb8      0xe96 CMakeFiles/SmartphoneKey_bm.elf.dir/source/nrf_comm/spi_protocol.c.obj
+ .debug_line    0x0003fd4e      0x8d3 CMakeFiles/SmartphoneKey_bm.elf.dir/source/nrf_comm/spi_comm.c.obj
+ .debug_line    0x00040621      0x860 CMakeFiles/SmartphoneKey_bm.elf.dir/source/ota/ota.c.obj
+ .debug_line    0x00040e81      0x69e CMakeFiles/SmartphoneKey_bm.elf.dir/source/taskmanager/peripheral/taskmanager_peripheral.c.obj
+ .debug_line    0x0004151f      0x354 CMakeFiles/SmartphoneKey_bm.elf.dir/source/taskmanager/taskmanager.c.obj
+ .debug_line    0x00041873      0x17d CMakeFiles/SmartphoneKey_bm.elf.dir/source/delay_ms/delay_ms.c.obj
+ .debug_line    0x000419f0     0x11ba CMakeFiles/SmartphoneKey_bm.elf.dir/source/google_pass_manager/ApduEx.c.obj
+ .debug_line    0x00042baa     0x11a4 CMakeFiles/SmartphoneKey_bm.elf.dir/source/google_pass_manager/NdefEx.c.obj
+ .debug_line    0x00043d4e      0xc91 CMakeFiles/SmartphoneKey_bm.elf.dir/source/google_pass_manager/NdefEx_helper.c.obj
+ .debug_line    0x000449df      0xf05 CMakeFiles/SmartphoneKey_bm.elf.dir/source/google_pass_manager/google_pass_manager.c.obj
 
 .debug_str      0x00000000    0xa91d2
  .debug_str     0x00000000    0xa91d2 CMakeFiles/SmartphoneKey_bm.elf.dir/board/pin_mux.c.obj

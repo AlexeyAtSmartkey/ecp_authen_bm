@@ -392,3 +392,10 @@
 164	400	7815036768976592	SmartphoneKey_bm.elf	aab20ec9f641f146
 30	308	7815888165658062	CMakeFiles/SmartphoneKey_bm.elf.dir/source/picc_manager/picc_manager.c.obj	1fc23a3e2030df93
 308	769	7815888168434718	SmartphoneKey_bm.elf	aab20ec9f641f146
+26	194	7831453349897399	CMakeFiles/SmartphoneKey_bm.elf.dir/source/google_pass_manager/google_pass_manager.c.obj	a02420de374b8040
+24	211	7831453349897399	CMakeFiles/SmartphoneKey_bm.elf.dir/source/nfc_comm/nfc_comm.c.obj	4c2243dd23f90310
+211	590	7831453351774698	SmartphoneKey_bm.elf	aab20ec9f641f146
+14	199	7831965203715376	CMakeFiles/SmartphoneKey_bm.elf.dir/source/google_pass_manager/google_pass_manager.c.obj	a02420de374b8040
+199	423	7831965205566971	SmartphoneKey_bm.elf	aab20ec9f641f146
+19	238	7831990956225320	CMakeFiles/SmartphoneKey_bm.elf.dir/source/google_pass_manager/google_pass_manager.c.obj	a02420de374b8040
+238	481	7831990958414707	SmartphoneKey_bm.elf	aab20ec9f641f146
