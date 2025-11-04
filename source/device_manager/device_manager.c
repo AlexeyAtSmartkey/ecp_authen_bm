@@ -21,9 +21,9 @@ void DEVICE_MODE_set(NFC_READER_Mode_t new_mode)
 	*(uint8_t *)&NFC_COMM_Status = tmp;
 
 	// Set appropriate bit in status register
-	if(new_mode == NFC_READER_READ_MODE) {NFC_COMM_Status.nfc_read_mode = 1;}
-	else if (new_mode == NFC_READER_WRITE_MODE) {NFC_COMM_Status.nfc_write_mode = 1;}
-	else if (new_mode == NFC_READER_OTA_MODE) {NFC_COMM_Status.nfc_ota_mode = 1;}
+	if      (new_mode == NFC_READER_READ_MODE)     {NFC_COMM_Status.nfc_read_mode = 1;}
+	else if (new_mode == NFC_READER_WRITE_MODE)    {NFC_COMM_Status.nfc_write_mode = 1;}
+	else if (new_mode == NFC_READER_OTA_MODE)      {NFC_COMM_Status.nfc_ota_mode = 1;}
 	else if (new_mode == NFC_READER_SETTINGS_MODE) {NFC_COMM_Status.nfc_settings_mode = 1;}
 }
 

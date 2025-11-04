@@ -1,1 +1,10 @@
+*.obj
+*.su
+*.json
+*.yaml
+*.log
+*.o
+*.exe
+*.elf
+*.bin
 

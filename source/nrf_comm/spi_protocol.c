@@ -34,12 +34,35 @@ int SpiIsBusFree(void) { return tx_buf_size == 0; }
 
 int SpiStageIsRx(void) { return (s_stage == ST_RX); }
 
-void SpiInit(void) {
-    SpiHwInit(SpiError, SpiRxComplete, SpiTxComplete);
-}
+void SpiInit(void) { SpiHwInit(SpiError, SpiRxComplete, SpiTxComplete); }
 
 void SpiWaitBusFree(void) {
     while (tx_buf_size) {}
+}
+
+/* ===== UUID + "ready to write" state ===== */
+static volatile int s_ready_to_write = 0;
+static uint8_t s_uuid[NRF_UUID_LEN] = {0};
+static uint8_t s_uuid_len = 0;
+
+void PN_SetReadyToWrite(int ready) {
+    s_ready_to_write = (ready != 0);
+}
+
+int PN_IsReadyToWrite(void) {
+    return s_ready_to_write ? 1 : 0;
+}
+
+void PN_UUID_set(const uint8_t *uid, uint8_t len) {
+    if (!uid) { s_uuid_len = 0; return; }
+    if (len > NRF_UUID_LEN) len = NRF_UUID_LEN;
+    for (uint8_t i = 0; i < len; i++) s_uuid[i] = uid[i];
+    s_uuid_len = len;
+}
+
+uint8_t PN_UUID_get(const uint8_t **uid_out) {
+    if (uid_out) *uid_out = s_uuid_len ? s_uuid : NULL;
+    return s_uuid_len;
 }
 
 void SpiSend(PN_COM_CMD_t cmd, const uint8_t *data, uint16_t size) {
@@ -47,7 +70,7 @@ void SpiSend(PN_COM_CMD_t cmd, const uint8_t *data, uint16_t size) {
 
     if (tx_buf_size) return;
 
-    /* 1) Header (0x4E55 little-endian) */
+    /* 1) Header (0x4E50 little-endian) */
     SpiTxBuf[idx++] = (uint8_t)(PN_COMM_PROTOCOL_HEADER & 0xFF);
     SpiTxBuf[idx++] = (uint8_t)(PN_COMM_PROTOCOL_HEADER >> 8);
 
@@ -60,8 +83,7 @@ void SpiSend(PN_COM_CMD_t cmd, const uint8_t *data, uint16_t size) {
     SpiTxBuf[idx++] = (uint8_t)cmd;
 
     /* 4) Payload */
-    for (uint16_t i = 0; i < size; i++)
-        SpiTxBuf[idx++] = data[i];
+    for (uint16_t i = 0; i < size; i++) SpiTxBuf[idx++] = data[i];
 
     /* 5) CRC over everything so far */
     uint16_t crc = Crc16Modbus(SpiTxBuf, idx);
@@ -73,7 +95,7 @@ void SpiSend(PN_COM_CMD_t cmd, const uint8_t *data, uint16_t size) {
     s_cmd_sent  = (uint8_t)cmd;
     s_bus   = BUS_BUSY;
     s_stage = ST_TX;
-    // DEBUG_PRINTF("TX len=%u, first bytes: %02X %02X %02X %02X\n", tx_buf_size, SpiTxBuf[0], SpiTxBuf[1], SpiTxBuf[2], SpiTxBuf[3]);
+    // DEBUG_PRINTF("TX len=%u, first bytes: %02X %02X %02X %02X %02X %02X\n", tx_buf_size, SpiTxBuf[0], SpiTxBuf[1], SpiTxBuf[2], SpiTxBuf[3], SpiTxBuf[4], SpiTxBuf[5]);
     SpiHwExchange(SpiTxBuf, SpiRxBuf, tx_buf_size);
 }
 
@@ -96,9 +118,9 @@ void SpiTxComplete(void) {
 
 void SpiRxComplete(void) {
     s_bus = BUS_FREE;
-    SpiProcessRxFrame();
     tx_buf_size = 0;
     s_stage = ST_TX;
+    SpiProcessRxFrame();
 }
 
 static uint16_t SpiExpectedRxLen(uint8_t cmd) {
@@ -137,10 +159,10 @@ static void SpiProcessRxFrame(void) {
     if (totallen < 7U) { DEBUG_PRINTF("RX: size too small (%u)\n", totallen); return; }
 
     // 3) CRC check using the existing helper
-    const uint16_t calc = Crc16Modbus(SpiRxBuf, (uint16_t)(totallen - 3U));
-    const uint16_t got  = (uint16_t)(SpiRxBuf[totallen - 3U] |
-                                     ((uint16_t)SpiRxBuf[totallen - 2U] << 8));
-    if (calc != got) { DEBUG_PRINTF("RX: CRC mismatch calc=%04X got=%04X\n", calc, got); return; }
+    const uint16_t calc = Crc16Modbus(SpiRxBuf, (uint16_t)(totallen - 2U));
+    const uint16_t got  = (uint16_t)(SpiRxBuf[totallen - 2U] | ((uint16_t)SpiRxBuf[totallen - 1U] << 8));
+    if (calc != got) { 
+        DEBUG_PRINTF("RX: CRC mismatch calc=%04X got=%04X\n", calc, got); return; }
 
     // 4) Spiand + payload
     uint8_t  cmd        = SpiRxBuf[4];
@@ -189,6 +211,7 @@ static void SpiHandleResponse(uint8_t cmd, uint8_t *payload, uint16_t payloadLen
             if (payloadLen > 0U) {
                 PICC_DATA_TO_WRITE_set(payload);      /* payload == &RX[5] */
                 DEVICE_MODE_set(NFC_READER_WRITE_MODE);
+                PN_SetReadyToWrite(1);
             }
             break;
 
@@ -208,11 +231,8 @@ void SpiTimeout(void) {
 inline uint16_t Crc16Modbus(const uint8_t *pcBlock, uint16_t len) {
     uint16_t crc = 0xFFFF;
     while (len--) {
-        crc ^= ((uint16_t)(*pcBlock++)) << 8;
-        for (uint8_t i = 0; i < 8; i++)
-            crc = crc & 0x8000 
-                            ? (crc << 1) ^ 0x1021 
-                            : crc << 1;
+        crc ^= *pcBlock++ << 8;
+        for (uint8_t i = 0; i < 8; i++) crc = crc & 0x8000 ? (crc << 1) ^ 0x1021 : crc << 1;
     }
     return crc;
 }

@@ -7,9 +7,9 @@
 #include "phpalI14443p4_Sw.h"
 
 // Array which are used for AuthenticateEV2 routine (actually reserved for new possible functionality of NXP PICCs)
-static uint8_t PCDcap2[6] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
-static uint8_t PCDcap2In[6] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
-static uint8_t PDcap2In[6] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+// uint8_t PCDcap2[6]   = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+// uint8_t PCDcap2In[6] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+// uint8_t PDcap2In[6]  = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 
 static uint8_t test_data[32];
 
@@ -47,8 +47,8 @@ phStatus_t APPLE_PASS_read(void *pDataParams, phacDiscLoop_Sw_DataParams_t *disc
 	}
 
 	status = phalMfdfEVx_AuthenticateEv2(pDataParams, PHAL_MFDFEVX_AUTH_FIRST, PHAL_MFDFEVX_NO_DIVERSIFICATION,
-			KEY_get(ACCESSGRID_READ_KEY_ID)->key_address,
-			KEY_get(ACCESSGRID_READ_KEY_ID)->key_version,
+			KEY_get(ACCESSGRID_READ_KEY_ID)->keyno,
+			KEY_get(ACCESSGRID_READ_KEY_ID)->version,
 			0, NULL, 0, 0, PCDcap2, PCDcap2In, PDcap2In);
 
 	if(status != 0) {

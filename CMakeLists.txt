@@ -95,6 +95,7 @@ add_executable(${MCUX_SDK_PROJECT_NAME}
 	"${ProjSrcPath}/phApp_Init.c"
 	"${ProjSrcPath}/phApp_Helper.c"
 	"${ProjSrcPath}/picc_manager/picc_manager.c"
+	"${ProjSrcPath}/picc_manager/evx_write_flow.c"
 	"${ProjSrcPath}/semihost_hardfault.c"
 	"${ProjSrcPath}/apple_pass_manager/apple_pass_manager.c"
 	"${ProjSrcPath}/device_manager/device_manager.c"

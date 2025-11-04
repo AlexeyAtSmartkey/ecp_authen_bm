@@ -25,6 +25,7 @@
 
 #include <ph_Status.h>
 #include <phacDiscLoop.h>
+#include "evx_write_flow.h"
 
 #define LISTEN_PHASE_TIME_MS              300       /* Listen Phase TIME in NFC forum mode */
 

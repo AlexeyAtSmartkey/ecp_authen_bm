@@ -22,6 +22,10 @@ extern "C" {
 #define NRF_HEART_BEAT_REQUEST_PERIOD_MS 1000
 #endif
 
+#ifndef NRF_UUID_LEN
+#define NRF_UUID_LEN 24   /* typical 4/7/10 UID bytes; bump if you need more */
+#endif
+
 typedef enum {
     PN_NFC_READ_DATA       = 0x01,
     PN_HEART_BEAT_STATUS   = 0x02,
@@ -71,6 +75,16 @@ extern uint8_t SpiTxBuf[NRF_COMM_PROTOCOL_BUF_LENGTH];
 extern uint8_t SpiTxDummy[NRF_COMM_PROTOCOL_BUF_LENGTH];
 extern uint8_t SpiRxBuf[NRF_COMM_PROTOCOL_BUF_LENGTH];
 extern volatile uint8_t tx_buf_size;
+
+/* === Card UUID + "ready to write" state === */
+/* Set/clear the device "ready to write" flag (non-zero = ready) */
+void PN_SetReadyToWrite(int ready);
+/* Read current "ready to write" flag (0/1) */
+int  PN_IsReadyToWrite(void);
+/* Store a newly read card UID (len up to NRF_UUID_MAX_LEN) */
+void PN_UUID_set(const uint8_t *uid, uint8_t len);
+/* Get a pointer to the cached UID; returns length (0 if none). *uid_out points to internal buffer. */
+uint8_t PN_UUID_get(const uint8_t **uid_out);
 
 /* === Backward-compatible aliases === */
 // static inline void NRF_COMM_PROTOCOL_init(void) { SpiInit(); }

@@ -283,6 +283,24 @@ void NFC_COMM_process(void) {
 
 static uint16_t ProcessCard() {
     phStatus_t    status;
+    if (DEVICE_MODE_get() == NFC_READER_WRITE_MODE && PN_IsReadyToWrite()) {
+        uint8_t  *wr = NULL; 
+        uint16_t  wl = 0;
+        PICC_DATA_TO_WRITE_get(&wr, &wl);
+
+        phStatus_t st = MifareDESFireEVx_process(wr, wl);
+
+        uint8_t fb = (st == PH_ERR_SUCCESS) ? 0x00 : 0x01;
+        SpiSend(PN_CARD_WRITE_FEEDBACK, &fb, 1);
+
+        PN_SetReadyToWrite(0);
+        DEVICE_MODE_set(NFC_READER_READ_MODE);
+        phalMfdfEVx_ResetAuthentication(palMfdfEVx);
+        phhalHw_FieldOff(pHal);
+        phhalHw_Wait(pHal, PHHAL_HW_TIME_MILLISECONDS, 5);
+        phhalHw_FieldOn(pHal);
+        return (uint16_t)st;
+    }
     status = APPLE_PASS_read(palMfdfEVx, pDiscLoop);
     if(status != 0) {
         if (APP_InitMbedCrypto() == PN76_STATUS_SUCCESS) { status = ProcessGoogleWallet(pDiscLoop); }
