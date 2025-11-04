@@ -1,8 +1,0 @@
-C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/memory_buffer_alloc.c:128:12:verify_header	16	static
-C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/memory_buffer_alloc.c:173:12:verify_chain	16	static
-C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/memory_buffer_alloc.c:224:14:buffer_alloc_calloc	40	static
-C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/memory_buffer_alloc.c:375:13:buffer_alloc_free	32	static
-C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/memory_buffer_alloc.c:492:6:mbedtls_memory_buffer_set_verify	16	static
-C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/memory_buffer_alloc.c:497:5:mbedtls_memory_buffer_alloc_verify	8	static
-C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/memory_buffer_alloc.c:567:6:mbedtls_memory_buffer_alloc_init	16	static
-C:/nxp/projects/ecp_authen_bm/mbedcrypto/src/memory_buffer_alloc.c:602:6:mbedtls_memory_buffer_alloc_free	8	static

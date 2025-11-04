@@ -1,7 +1,0 @@
-C:/nxp/projects/ecp_authen_bm/drivers/fsl_gpt.h:194:20:GPT_ClearTimeoutStatus	16	static
-C:/nxp/projects/ecp_authen_bm/drivers/fsl_gpt.h:206:20:GPT_GetTimeoutStatus	16	static
-C:/nxp/projects/ecp_authen_bm/source/taskmanager/peripheral/taskmanager_peripheral.c:12:6:TASK_MANAGER_PERIPH_config	4	static
-C:/nxp/projects/ecp_authen_bm/source/taskmanager/peripheral/taskmanager_peripheral.c:36:10:Sys_MS_counter_get	4	static
-C:/nxp/projects/ecp_authen_bm/source/taskmanager/peripheral/taskmanager_peripheral.c:41:6:TASK_MANAGER_PERIPH_deinit	4	static
-C:/nxp/projects/ecp_authen_bm/source/taskmanager/peripheral/taskmanager_peripheral.c:46:6:GPT_IRQHandler	8	static
-C:/nxp/projects/ecp_authen_bm/source/taskmanager/peripheral/taskmanager_peripheral.c:56:6:SysTick_Handler	8	static

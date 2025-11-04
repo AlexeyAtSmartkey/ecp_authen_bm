@@ -1,9 +1,0 @@
-C:/nxp/projects/ecp_authen_bm/components/phOsal/src/NullOs/portable/phOsal_Port_PN76xx.c:79:12:phOsal_InitTickTimer	16	static
-C:/nxp/projects/ecp_authen_bm/components/phOsal/src/NullOs/portable/phOsal_Port_PN76xx.c:95:13:phOsal_ConfigTick	8	static
-C:/nxp/projects/ecp_authen_bm/components/phOsal/src/NullOs/portable/phOsal_Port_PN76xx.c:118:12:phOsal_StartTickTimer	32	static
-C:/nxp/projects/ecp_authen_bm/components/phOsal/src/NullOs/portable/phOsal_Port_PN76xx.c:127:12:phOsal_StopTickTimer	4	static
-C:/nxp/projects/ecp_authen_bm/components/phOsal/src/NullOs/portable/phOsal_Port_PN76xx.c:136:6:phOsal_EnterCriticalSection	4	static
-C:/nxp/projects/ecp_authen_bm/components/phOsal/src/NullOs/portable/phOsal_Port_PN76xx.c:141:6:phOsal_ExitCriticalSection	4	static
-C:/nxp/projects/ecp_authen_bm/components/phOsal/src/NullOs/portable/phOsal_Port_PN76xx.c:146:6:phOsal_Sleep	4	static
-C:/nxp/projects/ecp_authen_bm/components/phOsal/src/NullOs/portable/phOsal_Port_PN76xx.c:151:6:phOsal_WakeUp	4	static
-C:/nxp/projects/ecp_authen_bm/components/phOsal/src/NullOs/portable/phOsal_Port_PN76xx.c:157:6:SysTick_Handler_dummy	16	static

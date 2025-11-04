@@ -1,9 +1,0 @@
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c:44:12:phpalFelica_Sw_Init	24	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c:69:12:phpalFelica_Sw_ReqC	56	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c:216:13:phpalFelica_Sw_GetFrameInfo	32	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c:298:12:phpalFelica_Sw_SetSerialNo	16	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c:312:12:phpalFelica_Sw_ActivateCard	48	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c:421:12:phpalFelica_Sw_Exchange	64	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c:707:12:phpalFelica_Sw_SetConfig	16	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c:742:12:phpalFelica_Sw_GetConfig	24	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c:764:12:phpalFelica_Sw_GetSerialNo	24	static

@@ -1,5 +1,0 @@
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoRng/src/mBedTLS/phCryptoRng_mBedTLS.c:34:12:phCryptoRng_mBedTLS_Init	16	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoRng/src/mBedTLS/phCryptoRng_mBedTLS.c:68:12:phCryptoRng_mBedTLS_DeInit	16	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoRng/src/mBedTLS/phCryptoRng_mBedTLS.c:89:12:phCryptoRng_mBedTLS_Seed	32	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoRng/src/mBedTLS/phCryptoRng_mBedTLS.c:113:12:phCryptoRng_mBedTLS_Rnd	32	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phCryptoRng/src/mBedTLS/phCryptoRng_mBedTLS.c:137:12:phCryptoRng_mBedTLS_GetLastStatus	24	static

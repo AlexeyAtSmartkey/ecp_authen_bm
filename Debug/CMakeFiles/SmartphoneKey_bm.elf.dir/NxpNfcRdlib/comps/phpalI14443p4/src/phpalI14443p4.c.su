@@ -1,7 +1,0 @@
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p4/src/phpalI14443p4.c:38:12:phpalI14443p4_SetProtocol	40	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p4/src/phpalI14443p4.c:116:12:phpalI14443p4_ResetProtocol	24	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p4/src/phpalI14443p4.c:165:12:phpalI14443p4_Deselect	24	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p4/src/phpalI14443p4.c:213:12:phpalI14443p4_PresCheck	24	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p4/src/phpalI14443p4.c:262:12:phpalI14443p4_Exchange	40	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p4/src/phpalI14443p4.c:332:12:phpalI14443p4_SetConfig	24	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phpalI14443p4/src/phpalI14443p4.c:387:12:phpalI14443p4_GetConfig	32	static

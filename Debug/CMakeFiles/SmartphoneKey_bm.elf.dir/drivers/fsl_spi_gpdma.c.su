@@ -1,8 +1,0 @@
-C:/nxp/projects/ecp_authen_bm/drivers/fsl_spi_gpdma.c:78:13:XferToFifoWR	16	static
-C:/nxp/projects/ecp_authen_bm/drivers/fsl_spi_gpdma.c:84:13:SpiConfigToFifoWR	16	static
-C:/nxp/projects/ecp_authen_bm/drivers/fsl_spi_gpdma.c:91:13:PrepareTxLastWord	24	static
-C:/nxp/projects/ecp_authen_bm/drivers/fsl_spi_gpdma.c:118:10:SPI_MasterTransferCreateHandleGPDMA	32	static
-C:/nxp/projects/ecp_authen_bm/drivers/fsl_spi_gpdma.c:176:10:SPI_MasterTransferGPDMA	104	static
-C:/nxp/projects/ecp_authen_bm/drivers/fsl_spi_gpdma.c:296:13:SPI_RxGPDMACallback	48	static
-C:/nxp/projects/ecp_authen_bm/drivers/fsl_spi_gpdma.c:317:13:SPI_TxGPDMACallback	48	static
-C:/nxp/projects/ecp_authen_bm/drivers/fsl_spi_gpdma.c:342:6:SPI_MasterTransferAbortGPDMA	16	static

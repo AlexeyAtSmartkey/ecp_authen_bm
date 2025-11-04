@@ -1,8 +1,0 @@
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phNfcLib/src/phNfcLib_Initialization.c:251:19:phNfcLib_SetContext	16	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phNfcLib/src/phNfcLib_Initialization.c:273:19:phNfcLib_CommonLayer_Init	24	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phNfcLib/src/phNfcLib_Initialization.c:439:19:phNfcLib_PAL_Init	16	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phNfcLib/src/phNfcLib_Initialization.c:555:19:phNfcLib_AL_Init	40	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phNfcLib/src/phNfcLib_Initialization.c:801:19:phNfcLib_Init	32	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phNfcLib/src/phNfcLib_Initialization.c:1006:19:phNfcLib_DeInit	16	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phNfcLib/src/phNfcLib_Initialization.c:1052:7:phNfcLib_GetDataParams	24	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phNfcLib/src/phNfcLib_Initialization.c:1250:7:phNfcLib_GetDataParams_Extended	24	static

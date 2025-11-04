@@ -1,5 +1,0 @@
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/phacDiscLoop.c:33:12:phacDiscLoop_Run	24	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/phacDiscLoop.c:72:12:phacDiscLoop_GetConfig	32	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/phacDiscLoop.c:120:12:phacDiscLoop_SetConfig	24	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/phacDiscLoop.c:168:12:phacDiscLoop_ActivateCard	24	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phacDiscLoop/src/phacDiscLoop.c:215:12:phacDiscLoop_CfgPollSeq	24	static

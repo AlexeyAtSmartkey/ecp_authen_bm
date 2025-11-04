@@ -1,4 +1,0 @@
-C:/nxp/projects/ecp_authen_bm/components/DAL/src/PN76xx/phDriver_PN76xx.c:54:12:phDriver_TimerStart	88	static
-C:/nxp/projects/ecp_authen_bm/components/DAL/src/PN76xx/phDriver_PN76xx.c:123:12:phDriver_TimerStop	16	static
-C:/nxp/projects/ecp_authen_bm/components/DAL/src/PN76xx/phDriver_PN76xx.c:151:13:phDriver_TimerIsrHandler	40	static
-C:/nxp/projects/ecp_authen_bm/components/DAL/src/PN76xx/phDriver_PN76xx.c:204:13:phDriver_TimerIsrCallBack	4	static

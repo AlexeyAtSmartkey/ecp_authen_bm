@@ -1,5 +1,0 @@
-C:/nxp/projects/ecp_authen_bm/rtt/RTT/SEGGER_RTT_printf.c:112:13:_StoreChar	24	static
-C:/nxp/projects/ecp_authen_bm/rtt/RTT/SEGGER_RTT_printf.c:143:13:_PrintUnsigned	48	static
-C:/nxp/projects/ecp_authen_bm/rtt/RTT/SEGGER_RTT_printf.c:261:13:_PrintInt	40	static
-C:/nxp/projects/ecp_authen_bm/rtt/RTT/SEGGER_RTT_printf.c:382:5:SEGGER_RTT_vprintf	144	static
-C:/nxp/projects/ecp_authen_bm/rtt/RTT/SEGGER_RTT_printf.c:593:5:SEGGER_RTT_printf	28	static

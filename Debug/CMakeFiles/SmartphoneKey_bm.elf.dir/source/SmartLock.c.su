@@ -1,4 +1,0 @@
-C:/nxp/projects/ecp_authen_bm/source/SmartLock.c:31:5:main	40	static
-C:/nxp/projects/ecp_authen_bm/source/SmartLock.c:85:13:nrfSpiHeartbeatTask	4	static
-C:/nxp/projects/ecp_authen_bm/source/SmartLock.c:94:6:ANTENNA_POWER_config	24	static
-C:/nxp/projects/ecp_authen_bm/source/SmartLock.c:111:13:dump_clock_eeprom	24	static

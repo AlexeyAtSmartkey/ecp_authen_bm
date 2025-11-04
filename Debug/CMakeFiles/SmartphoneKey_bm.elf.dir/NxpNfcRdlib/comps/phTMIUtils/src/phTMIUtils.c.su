@@ -1,6 +1,0 @@
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phTMIUtils/src/phTMIUtils.c:29:12:phTMIUtils_Init	24	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phTMIUtils/src/phTMIUtils.c:50:12:phTMIUtils_ActivateTMICollection	16	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phTMIUtils/src/phTMIUtils.c:97:12:phTMIUtils_GetTMI	24	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phTMIUtils/src/phTMIUtils.c:111:12:phTMIUtils_CollectTMI	40	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phTMIUtils/src/phTMIUtils.c:184:12:phTMIUtils_SetConfig	24	static
-C:/nxp/projects/ecp_authen_bm/NxpNfcRdlib/comps/phTMIUtils/src/phTMIUtils.c:206:12:phTMIUtils_GetConfig	24	static
